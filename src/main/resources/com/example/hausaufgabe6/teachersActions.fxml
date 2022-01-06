@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.hausaufgabe6.HelloController"
+      prefHeight="400.0" prefWidth="600.0">
+    <padding>
+        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0"/>
+    </padding>
+    <Label fx:id="courseId" text="The Id of the course, you want to see the students" />
+    <TextField fx:id="TeacherId"/>
+    <TextField fx:id="CourseId"/>
+    <Button text="Show Students" onAction="#showStudents"/>
+    <ListView fx:id="listView" />
+
+
+</VBox>
